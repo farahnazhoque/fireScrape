@@ -25,9 +25,8 @@ To extract zone info from text. Zone name is in ABC-###-a where 'a' is not appli
 
 The way this project is structured is that it is built within a Python virtual environment. This is to make sure you have all the necessary packages needed without having to download them all locally. To activate the virtual environment, head over to the directory fireScrape and run the following
 
-'''bash 
-source .venv/bin/activate
-'''
+source venv/bin/activate
+
 In case that the virtual environment these are the following packages being use in the script
 - requests
 - pandas
